@@ -1,0 +1,122 @@
+{
+  "StatusCode": 0,
+  "Message": null,
+  "ExecutionTime": 38,
+  "ResponseData": {
+    "LatestUpdate": "2017-07-31T12:47:21",
+    "DataAge": 10,
+    "Metros": [
+
+    ],
+    "Buses": [
+      {
+        "GroupOfLine": null,
+        "TransportMode": "BUS",
+        "LineNumber": "160",
+        "Destination": "Gullmarsplan",
+        "JourneyDirection": 1,
+        "StopAreaName": "Sjöviksvägen",
+        "StopAreaNumber": 13907,
+        "StopPointNumber": 13907,
+        "StopPointDesignation": null,
+        "TimeTabledDateTime": "2017-07-31T12:58:30",
+        "ExpectedDateTime": "2017-07-31T12:58:30",
+        "DisplayTime": "12:58",
+        "JourneyNumber": 9848,
+        "Deviations": null
+      },
+      {
+        "GroupOfLine": null,
+        "TransportMode": "BUS",
+        "LineNumber": "160",
+        "Destination": "Liljeholmen",
+        "JourneyDirection": 2,
+        "StopAreaName": "Sjöviksvägen",
+        "StopAreaNumber": 13907,
+        "StopPointNumber": 13908,
+        "StopPointDesignation": null,
+        "TimeTabledDateTime": "2017-07-31T13:00:16",
+        "ExpectedDateTime": "2017-07-31T13:00:16",
+        "DisplayTime": "12 min",
+        "JourneyNumber": 8549,
+        "Deviations": null
+      },
+      {
+        "GroupOfLine": null,
+        "TransportMode": "BUS",
+        "LineNumber": "160",
+        "Destination": "Gullmarsplan",
+        "JourneyDirection": 1,
+        "StopAreaName": "Sjöviksvägen",
+        "StopAreaNumber": 13907,
+        "StopPointNumber": 13907,
+        "StopPointDesignation": null,
+        "TimeTabledDateTime": "2017-07-31T13:18:30",
+        "ExpectedDateTime": "2017-07-31T13:18:30",
+        "DisplayTime": "13:18",
+        "JourneyNumber": 9849,
+        "Deviations": null
+      },
+      {
+        "GroupOfLine": null,
+        "TransportMode": "BUS",
+        "LineNumber": "160",
+        "Destination": "Liljeholmen",
+        "JourneyDirection": 2,
+        "StopAreaName": "Sjöviksvägen",
+        "StopAreaNumber": 13907,
+        "StopPointNumber": 13908,
+        "StopPointDesignation": null,
+        "TimeTabledDateTime": "2017-07-31T13:20:16",
+        "ExpectedDateTime": "2017-07-31T13:20:16",
+        "DisplayTime": "13:20",
+        "JourneyNumber": 8551,
+        "Deviations": null
+      },
+      {
+        "GroupOfLine": null,
+        "TransportMode": "BUS",
+        "LineNumber": "160",
+        "Destination": "Gullmarsplan",
+        "JourneyDirection": 1,
+        "StopAreaName": "Sjöviksvägen",
+        "StopAreaNumber": 13907,
+        "StopPointNumber": 13907,
+        "StopPointDesignation": null,
+        "TimeTabledDateTime": "2017-07-31T13:38:30",
+        "ExpectedDateTime": "2017-07-31T13:38:30",
+        "DisplayTime": "13:38",
+        "JourneyNumber": 9850,
+        "Deviations": null
+      },
+      {
+        "GroupOfLine": null,
+        "TransportMode": "BUS",
+        "LineNumber": "160",
+        "Destination": "Liljeholmen",
+        "JourneyDirection": 2,
+        "StopAreaName": "Sjöviksvägen",
+        "StopAreaNumber": 13907,
+        "StopPointNumber": 13908,
+        "StopPointDesignation": null,
+        "TimeTabledDateTime": "2017-07-31T13:40:16",
+        "ExpectedDateTime": "2017-07-31T13:40:16",
+        "DisplayTime": "13:40",
+        "JourneyNumber": 8553,
+        "Deviations": null
+      }
+    ],
+    "Trains": [
+
+    ],
+    "Trams": [
+
+    ],
+    "Ships": [
+
+    ],
+    "StopPointDeviations": [
+
+    ]
+  }
+}

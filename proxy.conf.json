@@ -1,0 +1,14 @@
+{
+  "/realtime": {
+    "target": "http://api.sl.se/api2/realtimedeparturesV4.json",
+    "changeOrigin": true,
+    "secure": false,
+    "pathRewrite": { "/realtime": "" }
+  },
+  "/place": {
+    "target": "http://api.sl.se/api2/typeahead.json",
+    "changeOrigin": true,
+    "secure": false,
+    "pathRewrite": { "/place": "" }
+  }
+}

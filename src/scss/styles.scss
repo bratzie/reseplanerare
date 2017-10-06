@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+$dark:             #455A64;
+$light:            #546E7A;
+$accent:           #CDDC39;
+
+$white:            #FAFAFA;
+$black:            #363636;
+
+$faded:            rgba(255, 255, 255, 0.75);
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient($dark, $light);
+  color: $white;
+}
+
+.interactive {
+  color: $light;
+  transition: 250ms color ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+h1, h2, h3, h4, p, span, ul, li {
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4 {
+  opacity: 0.75;
+  margin: 0.25em 0;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+}

@@ -1,0 +1,71 @@
+@import '../scss/styles.scss';
+
+.refresh {
+  position: absolute;
+  top: 0em;
+  right: 0em;
+  padding: 1em;
+  font-size: 2em;
+  z-index: 10;
+}
+
+.location {
+  background-color: $light;
+  padding: 1em;
+}
+
+.departures {
+  display: flex;
+}
+
+.departure-type {
+  width: 500px;
+  text-align: center;
+
+  i {
+    color: $accent;
+    font-size: 3em;
+  }
+}
+
+.departure-list {
+  padding: 1em;
+
+  h3 {
+    color: $accent;
+
+    i {
+      padding-right: 1em;
+    }
+  }
+
+  li {
+    padding: 2px 0;
+  }
+
+  .departure-item {
+    .eta {
+      font-weight: bold;
+    }
+
+    .info {
+      opacity: 0.75;
+    }
+
+    &:nth-child(1) {
+      font-size: 225%;
+    }
+
+    &:nth-child(2) {
+      font-size: 200%;
+    }
+
+    &:nth-child(3) {
+      font-size: 175%;
+    }
+
+    &:nth-child(n + 4) {
+      display: none;
+    }
+  }
+}
